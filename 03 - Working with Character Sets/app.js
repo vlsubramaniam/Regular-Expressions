@@ -17,7 +17,7 @@ let phoneNums = [
   '801-778-665'
 ]
 
-let regEx = /801-\d\d\d-\d\d\d\d/g,
+let regEx = /801-\d\d\d-\d\d\d\d/,
   newArray = []
 newArray = phoneNums.filter(elem => regEx.test(elem))
 console.log(newArray)
